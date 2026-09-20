@@ -1,0 +1,15 @@
+Flask>=3.0
+flask-sqlalchemy>=3.1
+flask-login>=0.6
+python-dotenv>=1.0
+Telethon>=1.36
+requests>=2.32
+
+# PostgreSQL support (production / Supabase). Uncomment when not on SQLite:
+# psycopg2-binary>=2.9
+
+# Gemini access. ai_engine.py auto-detects: prefers the current supported
+# "google-genai" SDK and falls back to the legacy "google-generativeai" if
+# only the latter is installed (it is now deprecated upstream).
+google-genai>=1.0
+google-generativeai>=0.8
